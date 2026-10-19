@@ -1,0 +1,11 @@
+{
+  "codigo_ibge": "3501608",
+  "nome": "Americana",
+  "uf": "SP",
+  "populacao": 242018,
+  "pib_per_capita": 62450,
+  "nichos": {
+    "hamburgueria": {"ativos": 418, "abertos_24m": 112, "fechados_24m": 84, "hab_por_cnpj": 579, "taxa_pressao_24m": 75, "indice_saturacao": "Alta"},
+    "barbearia": {"ativos": 362, "abertos_24m": 98, "fechados_24m": 67, "hab_por_cnpj": 669, "taxa_pressao_24m": 68, "indice_saturacao": "Alta"}
+  }
+}
