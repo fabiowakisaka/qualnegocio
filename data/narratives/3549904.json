@@ -1,0 +1,31 @@
+{
+  "codigo_ibge": "3549904",
+  "hub_resumo": "Estudo de viabilidade para São José dos Campos.",
+  "nichos": {
+    "hamburgueria": {
+      "resumo_mercado": "O setor de Hamburgueria e Lanchonete em São José dos Campos (SP) registra atualmente 820 CNPJs ativos, resultando na proporção de 1 estabelecimento para cada 850 habitantes (a referência equilibrada é 1 para 850).",
+      "analise_risco": "Nos últimos 24 meses, foram registradas 210 aberturas e 140 baixas, gerando uma taxa de pressão competitiva de 66%.",
+      "veredito_local": "Com PIB per capita de R$ 72100 e saturação Alta, o ticket médio de referência é R$ 45."
+    },
+    "pet-shop": {
+      "resumo_mercado": "O setor de Pet Shop e Banho e Tosa em São José dos Campos (SP) registra atualmente 390 CNPJs ativos, resultando na proporção de 1 estabelecimento para cada 1788 habitantes (a referência equilibrada é 1 para 1400).",
+      "analise_risco": "Nos últimos 24 meses, foram registradas 90 aberturas e 40 baixas, gerando uma taxa de pressão competitiva de 44%.",
+      "veredito_local": "Com PIB per capita de R$ 72100 e saturação Baixa, o ticket médio de referência é R$ 85."
+    },
+    "barbearia": {
+      "resumo_mercado": "O setor de Barbearia e Salão Masculino em São José dos Campos (SP) registra atualmente 650 CNPJs ativos, resultando na proporção de 1 estabelecimento para cada 1072 habitantes (a referência equilibrada é 1 para 750).",
+      "analise_risco": "Nos últimos 24 meses, foram registradas 160 aberturas e 110 baixas, gerando uma taxa de pressão competitiva de 68%.",
+      "veredito_local": "Com PIB per capita de R$ 72100 e saturação Moderada, o ticket médio de referência é R$ 55."
+    },
+    "marmitaria": {
+      "resumo_mercado": "O setor de Marmitaria e Comida Congelada em São José dos Campos (SP) registra atualmente 295 CNPJs ativos, resultando na proporção de 1 estabelecimento para cada 2364 habitantes (a referência equilibrada é 1 para 1100).",
+      "analise_risco": "Nos últimos 24 meses, foram registradas 80 aberturas e 30 baixas, gerando uma taxa de pressão competitiva de 37%.",
+      "veredito_local": "Com PIB per capita de R$ 72100 e saturação Baixa, o ticket médio de referência é R$ 28."
+    },
+    "cafeteria": {
+      "resumo_mercado": "O setor de Cafeteria e Doceria em São José dos Campos (SP) registra atualmente 195 CNPJs ativos, resultando na proporção de 1 estabelecimento para cada 3576 habitantes (a referência equilibrada é 1 para 1800).",
+      "analise_risco": "Nos últimos 24 meses, foram registradas 60 aberturas e 18 baixas, gerando uma taxa de pressão competitiva de 30%.",
+      "veredito_local": "Com PIB per capita de R$ 72100 e saturação Baixa, o ticket médio de referência é R$ 32."
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "codigo_ibge": "3501608",
+  "hub_resumo": "Americana (242018 habitantes e PIB per capita de R$ 62450) apresenta forte poder aquisitivo regional, mas exige atenção à alta densidade em serviços tradicionais de alimentação e estética masculina. As melhores oportunidades atuais concentram-se em operações enxutas como lavanderias self-service (1 para cada 6369 moradores) e cafeterias especializadas.",
+  "nichos": {
+    "hamburgueria": {
+      "resumo_mercado": "O setor de Hamburgueria e Lanchonete em Americana conta hoje com 418 CNPJs ativos, o que representa 1 estabelecimento para cada 579 habitantes (mais apertado que o parâmetro ideal de 850 habitantes).",
+      "analise_risco": "Nos últimos 24 meses, foram abertos 112 novos negócios, mas 84 encerraram as atividades no mesmo período — uma taxa de pressão de 75%.",
+      "veredito_local": "Devido ao PIB per capita de R$ 62450, há espaço apenas para operações nichadas de ticket médio próximo a R$ 45 ou dark kitchens com custo fixo enxuto."
+    },
+    "pet-shop": {
+      "resumo_mercado": "O setor de Pet Shop e Banho e Tosa em Americana (SP) registra atualmente 195 CNPJs ativos, resultando na proporção de 1 estabelecimento para cada 1241 habitantes (a referência equilibrada é 1 para 1400).",
+      "analise_risco": "Nos últimos 24 meses, foram registradas 44 aberturas e 22 baixas, gerando uma taxa de pressão competitiva de 50%.",
+      "veredito_local": "Com PIB per capita de R$ 62450 e saturação Moderada, o ticket médio de referência é R$ 85."
+    },
+    "barbearia": {
+      "resumo_mercado": "O setor de Barbearia e Salão Masculino em Americana (SP) registra atualmente 362 CNPJs ativos, resultando na proporção de 1 estabelecimento para cada 669 habitantes (a referência equilibrada é 1 para 750).",
+      "analise_risco": "Nos últimos 24 meses, foram registradas 98 aberturas e 67 baixas, gerando uma taxa de pressão competitiva de 68%.",
+      "veredito_local": "Com PIB per capita de R$ 62450 e saturação Alta, o ticket médio de referência é R$ 55."
+    },
+    "marmitaria": {
+      "resumo_mercado": "O setor de Marmitaria e Comida Congelada em Americana (SP) registra atualmente 158 CNPJs ativos, resultando na proporção de 1 estabelecimento para cada 1532 habitantes (a referência equilibrada é 1 para 1100).",
+      "analise_risco": "Nos últimos 24 meses, foram registradas 49 aberturas e 16 baixas, gerando uma taxa de pressão competitiva de 33%.",
+      "veredito_local": "Com PIB per capita de R$ 62450 e saturação Baixa, o ticket médio de referência é R$ 28."
+    },
+    "cafeteria": {
+      "resumo_mercado": "O setor de Cafeteria e Doceria em Americana (SP) registra atualmente 98 CNPJs ativos, resultando na proporção de 1 estabelecimento para cada 2469 habitantes (a referência equilibrada é 1 para 1800).",
+      "analise_risco": "Nos últimos 24 meses, foram registradas 29 aberturas e 8 baixas, gerando uma taxa de pressão competitiva de 28%.",
+      "veredito_local": "Com PIB per capita de R$ 62450 e saturação Baixa, o ticket médio de referência é R$ 32."
+    },
+    "clinica-de-estetica": {
+      "resumo_mercado": "O setor de Clínica de Estética em Americana (SP) registra atualmente 134 CNPJs ativos, resultando na proporção de 1 estabelecimento para cada 1806 habitantes (a referência equilibrada é 1 para 1600).",
+      "analise_risco": "Nos últimos 24 meses, foram registradas 41 aberturas e 15 baixas, gerando uma taxa de pressão competitiva de 37%.",
+      "veredito_local": "Com PIB per capita de R$ 62450 e saturação Baixa, o ticket médio de referência é R$ 180."
+    },
+    "lavanderia": {
+      "resumo_mercado": "O setor de Lavanderia Self-Service em Americana (SP) registra atualmente 38 CNPJs ativos, resultando na proporção de 1 estabelecimento para cada 6369 habitantes (a referência equilibrada é 1 para 4500).",
+      "analise_risco": "Nos últimos 24 meses, foram registradas 14 aberturas e 3 baixas, gerando uma taxa de pressão competitiva de 21%.",
+      "veredito_local": "Com PIB per capita de R$ 62450 e saturação Baixa, o ticket médio de referência é R$ 35."
+    },
+    "oficina-mecanica": {
+      "resumo_mercado": "O setor de Oficina Mecânica Automotiva em Americana (SP) registra atualmente 235 CNPJs ativos, resultando na proporção de 1 estabelecimento para cada 1030 habitantes (a referência equilibrada é 1 para 1100).",
+      "analise_risco": "Nos últimos 24 meses, foram registradas 32 aberturas e 19 baixas, gerando uma taxa de pressão competitiva de 59%.",
+      "veredito_local": "Com PIB per capita de R$ 62450 e saturação Moderada, o ticket médio de referência é R$ 420."
+    }
+  }
+}

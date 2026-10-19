@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="hero">
+  <h1>Qual negócio abrir na sua cidade?</h1>
+  <p>Veja quantos estabelecimentos de cada ramo já existem no seu município, quantos abriram e quantos fecharam nos últimos 24 meses, e onde ainda há espaço.</p>
+  <div class="busca" role="search"><input id="q" type="search" data-rel="{{ rel }}" placeholder="Digite o nome da sua cidade" autocomplete="off" aria-label="Buscar cidade"><ul id="res" hidden></ul></div>
+</section>
+
+<dl class="numeros">
+  <div><dt>Cidades com estudo</dt><dd>{{ total_cidades|milhar }}</dd></div>
+  <div><dt>Ramos monitorados</dt><dd>{{ total_nichos|milhar }}</dd></div>
+  <div><dt>Estados cobertos</dt><dd>{{ ufs|length }}</dd></div>
+</dl>
+
+<h2>Maiores cidades com estudo</h2>
+<ul class="grade">
+{% for c in cidades_topo %}<li><a href="{{ rel }}{{ c.uf_slug }}/{{ c.slug }}/index.html">{{ c.nome }} <small>{{ c.uf }} · {{ c.populacao|milhar }} hab.</small></a></li>{% endfor %}
+</ul>
+
+<h2>Por ramo de negócio</h2>
+<ul class="grade">
+{% for n in nichos_lista %}<li><a href="{{ rel }}negocios/{{ n.slug }}/index.html">{{ n.nome }} <small>{{ n.cidades }} cidade{{ 's' if n.cidades != 1 }}</small></a></li>{% endfor %}
+</ul>
+
+<h2>Por estado</h2>
+<ul class="grade">
+{% for u in ufs %}<li><a href="{{ rel }}{{ u.slug }}/index.html">{{ u.nome }} <small>{{ u.cidades }} cidade{{ 's' if u.cidades != 1 }}</small></a></li>{% endfor %}
+</ul>
+
+{% if cidades_novas %}
+<h2>Adicionadas recentemente</h2>
+<ul class="grade">
+{% for c in cidades_novas %}<li><a href="{{ rel }}{{ c.uf_slug }}/{{ c.slug }}/index.html">{{ c.nome }} <small>{{ c.uf }}</small></a></li>{% endfor %}
+</ul>
+{% endif %}
+{% endblock %}

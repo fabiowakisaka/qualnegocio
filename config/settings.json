@@ -1,0 +1,15 @@
+{
+  "cidades_por_dia": 5,
+  "max_refresh_por_dia": 2,
+  "max_chamadas_gemini": 8,
+  "nichos_por_chamada": 40,
+  "gemini_model": "gemini-2.5-flash",
+  "min_ativos_nicho": 5,
+  "min_nichos_cidade": 6,
+  "limite_mudanca_regerar_pct": 10,
+  "meses_janela": 24,
+  "vizinhas_max": 6,
+  "ranking_max_linhas": 100,
+  "sitemap_urls_por_arquivo": 10000,
+  "llms_intro_dias": 30
+}

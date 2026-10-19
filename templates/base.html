@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page_title }}</title>
+  <meta name="description" content="{{ meta_description }}">
+  <link rel="canonical" href="{{ canonical_url }}">
+  <link rel="icon" href="{{ rel }}favicon.svg" type="image/svg+xml">
+  <meta property="og:title" content="{{ page_title }}">
+  <meta property="og:description" content="{{ meta_description }}">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="{{ canonical_url }}">
+  <meta property="og:locale" content="pt_BR">
+  <link rel="stylesheet" href="{{ rel }}css/site.css">
+  {% if breadcrumbs %}<script type="application/ld+json">{{ ld_breadcrumbs|safe }}</script>{% endif %}
+</head>
+<body>
+  <header class="topo">
+    <div class="wrap">
+      <a href="{{ rel }}index.html" class="logo">QualNegócio<span>.com</span></a>
+      <nav aria-label="Principal">
+        <a href="{{ rel }}index.html">Início</a>
+        <a href="{{ rel }}negocios/index.html">Negócios</a>
+      </nav>
+      <div class="busca" role="search">
+        <input id="q" type="search" data-rel="{{ rel }}" placeholder="Buscar cidade…" autocomplete="off" aria-label="Buscar cidade">
+        <ul id="res" hidden></ul>
+      </div>
+    </div>
+  </header>
+  <main class="wrap">
+    {% if breadcrumbs %}<nav class="migalhas" aria-label="Trilha">{% for b in breadcrumbs %}{% if not loop.last %}<a href="{{ rel }}{{ b.path }}index.html">{{ b.nome }}</a> › {% else %}<strong>{{ b.nome }}</strong>{% endif %}{% endfor %}</nav>{% endif %}
+    {% block content %}{% endblock %}
+  </main>
+  <footer class="rodape">
+    <div class="wrap">
+      {% if legado %}<p><strong>Sobre os dados:</strong> números preliminares, em validação. Serão substituídos pela contagem oficial do cadastro de CNPJ da Receita Federal e por dados do IBGE. Valores de investimento, margem e ticket são estimativas de referência do setor, não promessa de resultado.</p>
+      {% else %}<p><strong>Sobre os dados:</strong> contagens do cadastro público de CNPJ da Receita Federal{% if fonte_rfb %} (lote {{ fonte_rfb }}){% endif %}, com população e PIB do IBGE. Indicadores calculados pelo QualNegócio; textos redigidos com apoio de IA a partir desses números e revisados por regras automáticas. Valores de investimento, margem e ticket são estimativas de referência do setor, não promessa de resultado.</p>{% endif %}
+      <p>Alguns links levam a parceiros e podem render comissão ao site, sem custo extra para você.</p>
+      <p>© {{ ano }} {{ affiliates.site_name }} · Atualizado em {{ last_updated|data_br }} · <a href="{{ rel }}llms.txt">llms.txt</a></p>
+    </div>
+  </footer>
+  <script src="{{ rel }}js/busca.js" defer></script>
+</body>
+</html>

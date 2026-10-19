@@ -1,0 +1,8 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>Ramos de negócio analisados</h1>
+<p>Cada ramo tem um ranking das cidades com mais espaço para novos estabelecimentos, e uma página por cidade com os números completos.</p>
+<ul class="grade">
+{% for n in nichos_lista %}<li><a href="{{ rel }}negocios/{{ n.slug }}/index.html">{{ n.nome }} <small>{{ n.cidades }} cidade{{ 's' if n.cidades != 1 }}</small></a></li>{% endfor %}
+</ul>
+{% endblock %}

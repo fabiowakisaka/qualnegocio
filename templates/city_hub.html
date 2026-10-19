@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+{% from "_macros.html" import pill, cta %}
+{% block content %}
+<h1>Qual negócio abrir em {{ city.nome }} ({{ city.uf }}) em {{ ano }}</h1>
+{% if narrative.hub_resumo %}<p>{{ narrative.hub_resumo }}</p>{% endif %}
+<dl class="numeros">
+  <div><dt>População (IBGE)</dt><dd>{{ city.populacao|milhar }}</dd></div>
+  {% if city.pib_per_capita %}<div><dt>PIB per capita</dt><dd>R$ {{ city.pib_per_capita|milhar }}</dd></div>{% endif %}
+  <div><dt>Ramos monitorados</dt><dd>{{ niche_rows|length }}</dd></div>
+  <div><dt>Com espaço para entrar</dt><dd>{{ n_baixa }}</dd></div>
+</dl>
+
+<h2>Ranking de oportunidades em {{ city.nome }}</h2>
+<p class="aviso">Ordenado do ramo com menos concorrência para o mais disputado, considerando o tamanho da cidade.</p>
+<div class="tabela"><table>
+<thead><tr><th>Ramo</th><th>Saturação</th><th class="num">Ativos</th><th class="num">Hab. por estabelec.</th><th class="num">Abertos / baixados (24m)</th></tr></thead>
+<tbody>
+{% for row in niche_rows %}<tr>
+<td><a href="{{ rel }}{{ city.uf_slug }}/{{ city.slug }}/{{ row.slug }}/index.html">{{ row.meta.nome }}</a></td>
+<td>{{ pill(row.metrics.indice_saturacao) }}</td>
+<td class="num">{{ row.metrics.ativos|milhar }}</td><td class="num">{{ row.metrics.hab_por_cnpj|milhar }}</td>
+<td class="num">+{{ row.metrics.abertos_24m|milhar }} / −{{ row.metrics.fechados_24m|milhar }}</td></tr>{% endfor %}
+</tbody></table></div>
+
+{{ cta(affiliates.contabilidade) }}
+
+{% if vizinhas %}
+<h2>Cidades próximas</h2>
+<ul class="grade">{% for v in vizinhas %}<li><a href="{{ rel }}{{ v.uf_slug }}/{{ v.slug }}/index.html">{{ v.nome }} <small>{{ v.populacao|milhar }} hab.</small></a></li>{% endfor %}</ul>
+{% endif %}
+{% endblock %}

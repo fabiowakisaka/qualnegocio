@@ -1,0 +1,31 @@
+{
+  "codigo_ibge": "3519072",
+  "hub_resumo": "Estudo de viabilidade para Hortolândia.",
+  "nichos": {
+    "hamburgueria": {
+      "resumo_mercado": "O setor de Hamburgueria e Lanchonete em Hortolândia (SP) registra atualmente 290 CNPJs ativos, resultando na proporção de 1 estabelecimento para cada 815 habitantes (a referência equilibrada é 1 para 850).",
+      "analise_risco": "Nos últimos 24 meses, foram registradas 75 aberturas e 50 baixas, gerando uma taxa de pressão competitiva de 66%.",
+      "veredito_local": "Com PIB per capita de R$ 53200 e saturação Alta, o ticket médio de referência é R$ 45."
+    },
+    "pet-shop": {
+      "resumo_mercado": "O setor de Pet Shop e Banho e Tosa em Hortolândia (SP) registra atualmente 130 CNPJs ativos, resultando na proporção de 1 estabelecimento para cada 1818 habitantes (a referência equilibrada é 1 para 1400).",
+      "analise_risco": "Nos últimos 24 meses, foram registradas 30 aberturas e 12 baixas, gerando uma taxa de pressão competitiva de 40%.",
+      "veredito_local": "Com PIB per capita de R$ 53200 e saturação Baixa, o ticket médio de referência é R$ 85."
+    },
+    "barbearia": {
+      "resumo_mercado": "O setor de Barbearia e Salão Masculino em Hortolândia (SP) registra atualmente 240 CNPJs ativos, resultando na proporção de 1 estabelecimento para cada 986 habitantes (a referência equilibrada é 1 para 750).",
+      "analise_risco": "Nos últimos 24 meses, foram registradas 65 aberturas e 40 baixas, gerando uma taxa de pressão competitiva de 61%.",
+      "veredito_local": "Com PIB per capita de R$ 53200 e saturação Alta, o ticket médio de referência é R$ 55."
+    },
+    "marmitaria": {
+      "resumo_mercado": "O setor de Marmitaria e Comida Congelada em Hortolândia (SP) registra atualmente 110 CNPJs ativos, resultando na proporção de 1 estabelecimento para cada 2151 habitantes (a referência equilibrada é 1 para 1100).",
+      "analise_risco": "Nos últimos 24 meses, foram registradas 30 aberturas e 10 baixas, gerando uma taxa de pressão competitiva de 33%.",
+      "veredito_local": "Com PIB per capita de R$ 53200 e saturação Baixa, o ticket médio de referência é R$ 28."
+    },
+    "cafeteria": {
+      "resumo_mercado": "O setor de Cafeteria e Doceria em Hortolândia (SP) registra atualmente 60 CNPJs ativos, resultando na proporção de 1 estabelecimento para cada 3944 habitantes (a referência equilibrada é 1 para 1800).",
+      "analise_risco": "Nos últimos 24 meses, foram registradas 18 aberturas e 5 baixas, gerando uma taxa de pressão competitiva de 27%.",
+      "veredito_local": "Com PIB per capita de R$ 53200 e saturação Baixa, o ticket médio de referência é R$ 32."
+    }
+  }
+}

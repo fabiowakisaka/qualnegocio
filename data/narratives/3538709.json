@@ -1,0 +1,31 @@
+{
+  "codigo_ibge": "3538709",
+  "hub_resumo": "Estudo de viabilidade para Piracicaba.",
+  "nichos": {
+    "hamburgueria": {
+      "resumo_mercado": "O setor de Hamburgueria e Lanchonete em Piracicaba (SP) registra atualmente 510 CNPJs ativos, resultando na proporção de 1 estabelecimento para cada 798 habitantes (a referência equilibrada é 1 para 850).",
+      "analise_risco": "Nos últimos 24 meses, foram registradas 130 aberturas e 90 baixas, gerando uma taxa de pressão competitiva de 69%.",
+      "veredito_local": "Com PIB per capita de R$ 58400 e saturação Alta, o ticket médio de referência é R$ 45."
+    },
+    "pet-shop": {
+      "resumo_mercado": "O setor de Pet Shop e Banho e Tosa em Piracicaba (SP) registra atualmente 240 CNPJs ativos, resultando na proporção de 1 estabelecimento para cada 1696 habitantes (a referência equilibrada é 1 para 1400).",
+      "analise_risco": "Nos últimos 24 meses, foram registradas 55 aberturas e 25 baixas, gerando uma taxa de pressão competitiva de 45%.",
+      "veredito_local": "Com PIB per capita de R$ 58400 e saturação Baixa, o ticket médio de referência é R$ 85."
+    },
+    "barbearia": {
+      "resumo_mercado": "O setor de Barbearia e Salão Masculino em Piracicaba (SP) registra atualmente 420 CNPJs ativos, resultando na proporção de 1 estabelecimento para cada 969 habitantes (a referência equilibrada é 1 para 750).",
+      "analise_risco": "Nos últimos 24 meses, foram registradas 105 aberturas e 75 baixas, gerando uma taxa de pressão competitiva de 71%.",
+      "veredito_local": "Com PIB per capita de R$ 58400 e saturação Alta, o ticket médio de referência é R$ 55."
+    },
+    "marmitaria": {
+      "resumo_mercado": "O setor de Marmitaria e Comida Congelada em Piracicaba (SP) registra atualmente 190 CNPJs ativos, resultando na proporção de 1 estabelecimento para cada 2143 habitantes (a referência equilibrada é 1 para 1100).",
+      "analise_risco": "Nos últimos 24 meses, foram registradas 50 aberturas e 20 baixas, gerando uma taxa de pressão competitiva de 40%.",
+      "veredito_local": "Com PIB per capita de R$ 58400 e saturação Baixa, o ticket médio de referência é R$ 28."
+    },
+    "cafeteria": {
+      "resumo_mercado": "O setor de Cafeteria e Doceria em Piracicaba (SP) registra atualmente 120 CNPJs ativos, resultando na proporção de 1 estabelecimento para cada 3393 habitantes (a referência equilibrada é 1 para 1800).",
+      "analise_risco": "Nos últimos 24 meses, foram registradas 35 aberturas e 12 baixas, gerando uma taxa de pressão competitiva de 34%.",
+      "veredito_local": "Com PIB per capita de R$ 58400 e saturação Baixa, o ticket médio de referência é R$ 32."
+    }
+  }
+}

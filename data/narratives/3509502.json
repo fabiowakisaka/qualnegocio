@@ -1,0 +1,31 @@
+{
+  "codigo_ibge": "3509502",
+  "hub_resumo": "Estudo de viabilidade para Campinas.",
+  "nichos": {
+    "hamburgueria": {
+      "resumo_mercado": "O setor de Hamburgueria e Lanchonete em Campinas (SP) registra atualmente 1250 CNPJs ativos, resultando na proporção de 1 estabelecimento para cada 911 habitantes (a referência equilibrada é 1 para 850).",
+      "analise_risco": "Nos últimos 24 meses, foram registradas 310 aberturas e 210 baixas, gerando uma taxa de pressão competitiva de 67%.",
+      "veredito_local": "Com PIB per capita de R$ 65200 e saturação Moderada, o ticket médio de referência é R$ 45."
+    },
+    "pet-shop": {
+      "resumo_mercado": "O setor de Pet Shop e Banho e Tosa em Campinas (SP) registra atualmente 620 CNPJs ativos, resultando na proporção de 1 estabelecimento para cada 1837 habitantes (a referência equilibrada é 1 para 1400).",
+      "analise_risco": "Nos últimos 24 meses, foram registradas 140 aberturas e 70 baixas, gerando uma taxa de pressão competitiva de 50%.",
+      "veredito_local": "Com PIB per capita de R$ 65200 e saturação Baixa, o ticket médio de referência é R$ 85."
+    },
+    "barbearia": {
+      "resumo_mercado": "O setor de Barbearia e Salão Masculino em Campinas (SP) registra atualmente 980 CNPJs ativos, resultando na proporção de 1 estabelecimento para cada 1162 habitantes (a referência equilibrada é 1 para 750).",
+      "analise_risco": "Nos últimos 24 meses, foram registradas 240 aberturas e 180 baixas, gerando uma taxa de pressão competitiva de 75%.",
+      "veredito_local": "Com PIB per capita de R$ 65200 e saturação Moderada, o ticket médio de referência é R$ 55."
+    },
+    "marmitaria": {
+      "resumo_mercado": "O setor de Marmitaria e Comida Congelada em Campinas (SP) registra atualmente 450 CNPJs ativos, resultando na proporção de 1 estabelecimento para cada 2531 habitantes (a referência equilibrada é 1 para 1100).",
+      "analise_risco": "Nos últimos 24 meses, foram registradas 120 aberturas e 50 baixas, gerando uma taxa de pressão competitiva de 41%.",
+      "veredito_local": "Com PIB per capita de R$ 65200 e saturação Baixa, o ticket médio de referência é R$ 28."
+    },
+    "cafeteria": {
+      "resumo_mercado": "O setor de Cafeteria e Doceria em Campinas (SP) registra atualmente 310 CNPJs ativos, resultando na proporção de 1 estabelecimento para cada 3674 habitantes (a referência equilibrada é 1 para 1800).",
+      "analise_risco": "Nos últimos 24 meses, foram registradas 90 aberturas e 30 baixas, gerando uma taxa de pressão competitiva de 33%.",
+      "veredito_local": "Com PIB per capita de R$ 65200 e saturação Baixa, o ticket médio de referência é R$ 32."
+    }
+  }
+}

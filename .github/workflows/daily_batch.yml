@@ -1,0 +1,72 @@
+name: Lote diário (narrativas, build e deploy)
+
+# Roda todo dia se a variável AUTO_PUBLISH for "true". Também pode ser disparado manualmente.
+on:
+  workflow_dispatch:
+    inputs:
+      cidades:
+        description: "Cidades neste lote (vazio = variável CIDADES_POR_DIA ou 5)"
+        required: false
+        default: ""
+      max_chamadas:
+        description: "Teto de chamadas ao Gemini (vazio = variável MAX_CHAMADAS_GEMINI ou 8)"
+        required: false
+        default: ""
+  schedule:
+    - cron: "17 9 * * *"
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  gerar_e_construir:
+    if: github.event_name == 'workflow_dispatch' || vars.AUTO_PUBLISH == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Gerar narrativas do dia
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
+          CIDADES_POR_DIA: ${{ github.event.inputs.cidades || vars.CIDADES_POR_DIA }}
+          MAX_CHAMADAS_GEMINI: ${{ github.event.inputs.max_chamadas || vars.MAX_CHAMADAS_GEMINI }}
+        run: python scripts/02_generate_batch.py
+      - name: Atualizar abertura do llms.txt (no máximo mensal)
+        continue-on-error: true
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
+        run: python scripts/05_llms_intro.py
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/narratives data/published_state.json data/llms_intro.json
+          git diff --staged --quiet || (git commit -m "chore(data): lote diário" && git pull --rebase origin main && git push)
+      - run: python scripts/04_build_static.py
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./dist
+
+  publicar:
+    needs: gerar_e_construir
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

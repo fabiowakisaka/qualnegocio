@@ -1,0 +1,31 @@
+{
+  "codigo_ibge": "3526902",
+  "hub_resumo": "Estudo de viabilidade para Limeira.",
+  "nichos": {
+    "hamburgueria": {
+      "resumo_mercado": "O setor de Hamburgueria e Lanchonete em Limeira (SP) registra atualmente 380 CNPJs ativos, resultando na proporção de 1 estabelecimento para cada 768 habitantes (a referência equilibrada é 1 para 850).",
+      "analise_risco": "Nos últimos 24 meses, foram registradas 95 aberturas e 70 baixas, gerando uma taxa de pressão competitiva de 73%.",
+      "veredito_local": "Com PIB per capita de R$ 54100 e saturação Alta, o ticket médio de referência é R$ 45."
+    },
+    "pet-shop": {
+      "resumo_mercado": "O setor de Pet Shop e Banho e Tosa em Limeira (SP) registra atualmente 170 CNPJs ativos, resultando na proporção de 1 estabelecimento para cada 1716 habitantes (a referência equilibrada é 1 para 1400).",
+      "analise_risco": "Nos últimos 24 meses, foram registradas 40 aberturas e 18 baixas, gerando uma taxa de pressão competitiva de 45%.",
+      "veredito_local": "Com PIB per capita de R$ 54100 e saturação Baixa, o ticket médio de referência é R$ 85."
+    },
+    "barbearia": {
+      "resumo_mercado": "O setor de Barbearia e Salão Masculino em Limeira (SP) registra atualmente 310 CNPJs ativos, resultando na proporção de 1 estabelecimento para cada 941 habitantes (a referência equilibrada é 1 para 750).",
+      "analise_risco": "Nos últimos 24 meses, foram registradas 80 aberturas e 55 baixas, gerando uma taxa de pressão competitiva de 68%.",
+      "veredito_local": "Com PIB per capita de R$ 54100 e saturação Alta, o ticket médio de referência é R$ 55."
+    },
+    "marmitaria": {
+      "resumo_mercado": "O setor de Marmitaria e Comida Congelada em Limeira (SP) registra atualmente 140 CNPJs ativos, resultando na proporção de 1 estabelecimento para cada 2084 habitantes (a referência equilibrada é 1 para 1100).",
+      "analise_risco": "Nos últimos 24 meses, foram registradas 38 aberturas e 15 baixas, gerando uma taxa de pressão competitiva de 39%.",
+      "veredito_local": "Com PIB per capita de R$ 54100 e saturação Baixa, o ticket médio de referência é R$ 28."
+    },
+    "cafeteria": {
+      "resumo_mercado": "O setor de Cafeteria e Doceria em Limeira (SP) registra atualmente 85 CNPJs ativos, resultando na proporção de 1 estabelecimento para cada 3433 habitantes (a referência equilibrada é 1 para 1800).",
+      "analise_risco": "Nos últimos 24 meses, foram registradas 25 aberturas e 8 baixas, gerando uma taxa de pressão competitiva de 32%.",
+      "veredito_local": "Com PIB per capita de R$ 54100 e saturação Baixa, o ticket médio de referência é R$ 32."
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "codigo_ibge": "3554300",
+  "hub_resumo": "Estudo de viabilidade para Paulínia.",
+  "nichos": {
+    "hamburgueria": {
+      "resumo_mercado": "O setor de Hamburgueria e Lanchonete em Paulínia (SP) registra atualmente 180 CNPJs ativos, resultando na proporção de 1 estabelecimento para cada 614 habitantes (a referência equilibrada é 1 para 850).",
+      "analise_risco": "Nos últimos 24 meses, foram registradas 50 aberturas e 30 baixas, gerando uma taxa de pressão competitiva de 60%.",
+      "veredito_local": "Com PIB per capita de R$ 185000 e saturação Alta, o ticket médio de referência é R$ 45."
+    },
+    "pet-shop": {
+      "resumo_mercado": "O setor de Pet Shop e Banho e Tosa em Paulínia (SP) registra atualmente 90 CNPJs ativos, resultando na proporção de 1 estabelecimento para cada 1228 habitantes (a referência equilibrada é 1 para 1400).",
+      "analise_risco": "Nos últimos 24 meses, foram registradas 22 aberturas e 8 baixas, gerando uma taxa de pressão competitiva de 36%.",
+      "veredito_local": "Com PIB per capita de R$ 185000 e saturação Baixa, o ticket médio de referência é R$ 85."
+    },
+    "barbearia": {
+      "resumo_mercado": "O setor de Barbearia e Salão Masculino em Paulínia (SP) registra atualmente 150 CNPJs ativos, resultando na proporção de 1 estabelecimento para cada 737 habitantes (a referência equilibrada é 1 para 750).",
+      "analise_risco": "Nos últimos 24 meses, foram registradas 42 aberturas e 22 baixas, gerando uma taxa de pressão competitiva de 52%.",
+      "veredito_local": "Com PIB per capita de R$ 185000 e saturação Moderada, o ticket médio de referência é R$ 55."
+    },
+    "marmitaria": {
+      "resumo_mercado": "O setor de Marmitaria e Comida Congelada em Paulínia (SP) registra atualmente 70 CNPJs ativos, resultando na proporção de 1 estabelecimento para cada 1579 habitantes (a referência equilibrada é 1 para 1100).",
+      "analise_risco": "Nos últimos 24 meses, foram registradas 20 aberturas e 6 baixas, gerando uma taxa de pressão competitiva de 30%.",
+      "veredito_local": "Com PIB per capita de R$ 185000 e saturação Baixa, o ticket médio de referência é R$ 28."
+    },
+    "cafeteria": {
+      "resumo_mercado": "O setor de Cafeteria e Doceria em Paulínia (SP) registra atualmente 45 CNPJs ativos, resultando na proporção de 1 estabelecimento para cada 2457 habitantes (a referência equilibrada é 1 para 1800).",
+      "analise_risco": "Nos últimos 24 meses, foram registradas 14 aberturas e 4 baixas, gerando uma taxa de pressão competitiva de 28%.",
+      "veredito_local": "Com PIB per capita de R$ 185000 e saturação Baixa, o ticket médio de referência é R$ 32."
+    }
+  }
+}

@@ -1,0 +1,51 @@
+name: Ingest dados (Receita + IBGE)
+
+# Atualiza data/metricas/*.json com a base de CNPJ da Receita Federal e dados do IBGE.
+# Manual (Run workflow) ou mensal, se a variável INGEST_AUTO for "true".
+on:
+  workflow_dispatch:
+    inputs:
+      mes:
+        description: "Pasta AAAA-MM da Receita (vazio = a mais recente)"
+        required: false
+        default: ""
+      forcar_ibge:
+        description: "Baixar IBGE de novo, ignorando o cache"
+        type: boolean
+        default: false
+  schedule:
+    - cron: "0 6 22 * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: dados
+  cancel-in-progress: false
+
+jobs:
+  ingest:
+    if: github.event_name == 'workflow_dispatch' || vars.INGEST_AUTO == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Ingest
+        env:
+          RFB_BASE_URL: ${{ vars.RFB_BASE_URL }}
+        run: |
+          ARGS=""
+          if [ -n "${{ github.event.inputs.mes }}" ]; then ARGS="$ARGS --mes ${{ github.event.inputs.mes }}"; fi
+          if [ "${{ github.event.inputs.forcar_ibge }}" = "true" ]; then ARGS="$ARGS --forcar-ibge"; fi
+          python scripts/01_ingest_dados.py $ARGS
+      - name: Commit dos dados
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/metricas data/ibge_cache.json
+          git diff --staged --quiet || (git commit -m "chore(data): ingest Receita/IBGE" && git pull --rebase origin main && git push)

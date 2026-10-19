@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% from "_macros.html" import pill %}
+{% block content %}
+<h1>{{ titulo }}</h1>
+<p>{{ intro }}</p>
+<div class="tabela"><table>
+<thead><tr><th>Cidade</th><th>Saturação</th><th class="num">Ativos</th><th class="num">Hab. por estabelec.</th><th class="num">Abertos / baixados (24m)</th></tr></thead>
+<tbody>
+{% for r in linhas %}<tr>
+<td><a href="{{ rel }}{{ r.uf_slug }}/{{ r.slug }}/{{ nicho_slug }}/index.html">{{ r.nome }}</a> <small>{{ r.uf }}</small></td>
+<td>{{ pill(r.m.indice_saturacao) }}</td>
+<td class="num">{{ r.m.ativos|milhar }}</td><td class="num">{{ r.m.hab_por_cnpj|milhar }}</td>
+<td class="num">+{{ r.m.abertos_24m|milhar }} / −{{ r.m.fechados_24m|milhar }}</td></tr>{% endfor %}
+</tbody></table></div>
+{% if omitidas %}<p class="aviso">Mostrando as {{ linhas|length }} cidades com mais espaço; outras {{ omitidas }} têm página própria no site.</p>{% endif %}
+{% if ufs %}<h2>Ver por estado</h2><ul class="grade">{% for u in ufs %}<li><a href="{{ rel }}negocios/{{ nicho_slug }}/{{ u.slug }}/index.html">{{ u.nome }} <small>{{ u.cidades }} cidades</small></a></li>{% endfor %}</ul>{% endif %}
+{% endblock %}

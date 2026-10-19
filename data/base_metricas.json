@@ -1,0 +1,177 @@
+{
+  "3501608": {
+    "codigo_ibge": "3501608",
+    "nome": "Americana",
+    "uf": "SP",
+    "uf_slug": "sp",
+    "slug": "americana",
+    "populacao": 242018,
+    "pib_per_capita": 62450,
+    "cidades_gemeas": [
+      {"nome": "Santa Bárbara d'Oeste", "uf": "SP", "slug": "santa-barbara-doeste", "uf_slug": "sp"},
+      {"nome": "Limeira", "uf": "SP", "slug": "limeira", "uf_slug": "sp"}
+    ],
+    "nichos": {
+      "hamburgueria": {"ativos": 418, "abertos_24m": 112, "fechados_24m": 84, "hab_por_cnpj": 579, "taxa_pressao_24m": 75, "indice_saturacao": "Alta"},
+      "pet-shop": {"ativos": 195, "abertos_24m": 44, "fechados_24m": 22, "hab_por_cnpj": 1241, "taxa_pressao_24m": 50, "indice_saturacao": "Moderada"},
+      "barbearia": {"ativos": 362, "abertos_24m": 98, "fechados_24m": 67, "hab_por_cnpj": 669, "taxa_pressao_24m": 68, "indice_saturacao": "Alta"},
+      "marmitaria": {"ativos": 158, "abertos_24m": 49, "fechados_24m": 16, "hab_por_cnpj": 1532, "taxa_pressao_24m": 33, "indice_saturacao": "Baixa"},
+      "cafeteria": {"ativos": 98, "abertos_24m": 29, "fechados_24m": 8, "hab_por_cnpj": 2469, "taxa_pressao_24m": 28, "indice_saturacao": "Baixa"}
+    }
+  },
+  "3545803": {
+    "codigo_ibge": "3545803",
+    "nome": "Santa Bárbara d'Oeste",
+    "uf": "SP",
+    "uf_slug": "sp",
+    "slug": "santa-barbara-doeste",
+    "populacao": 183347,
+    "pib_per_capita": 51200,
+    "cidades_gemeas": [
+      {"nome": "Americana", "uf": "SP", "slug": "americana", "uf_slug": "sp"}
+    ],
+    "nichos": {
+      "hamburgueria": {"ativos": 274, "abertos_24m": 76, "fechados_24m": 54, "hab_por_cnpj": 669, "taxa_pressao_24m": 71, "indice_saturacao": "Alta"},
+      "pet-shop": {"ativos": 122, "abertos_24m": 31, "fechados_24m": 12, "hab_por_cnpj": 1503, "taxa_pressao_24m": 39, "indice_saturacao": "Baixa"},
+      "barbearia": {"ativos": 265, "abertos_24m": 72, "fechados_24m": 48, "hab_por_cnpj": 692, "taxa_pressao_24m": 67, "indice_saturacao": "Alta"},
+      "marmitaria": {"ativos": 115, "abertos_24m": 38, "fechados_24m": 14, "hab_por_cnpj": 1594, "taxa_pressao_24m": 37, "indice_saturacao": "Baixa"},
+      "cafeteria": {"ativos": 64, "abertos_24m": 19, "fechados_24m": 6, "hab_por_cnpj": 2865, "taxa_pressao_24m": 32, "indice_saturacao": "Baixa"}
+    }
+  },
+  "3509502": {
+    "codigo_ibge": "3509502",
+    "nome": "Campinas",
+    "uf": "SP",
+    "uf_slug": "sp",
+    "slug": "campinas",
+    "populacao": 1139047,
+    "pib_per_capita": 65200,
+    "cidades_gemeas": [{"nome": "Hortolândia", "uf": "SP", "slug": "hortolandia", "uf_slug": "sp"}],
+    "nichos": {
+      "hamburgueria": {"ativos": 1250, "abertos_24m": 310, "fechados_24m": 210, "hab_por_cnpj": 911, "taxa_pressao_24m": 67, "indice_saturacao": "Moderada"},
+      "pet-shop": {"ativos": 620, "abertos_24m": 140, "fechados_24m": 70, "hab_por_cnpj": 1837, "taxa_pressao_24m": 50, "indice_saturacao": "Baixa"},
+      "barbearia": {"ativos": 980, "abertos_24m": 240, "fechados_24m": 180, "hab_por_cnpj": 1162, "taxa_pressao_24m": 75, "indice_saturacao": "Moderada"},
+      "marmitaria": {"ativos": 450, "abertos_24m": 120, "fechados_24m": 50, "hab_por_cnpj": 2531, "taxa_pressao_24m": 41, "indice_saturacao": "Baixa"},
+      "cafeteria": {"ativos": 310, "abertos_24m": 90, "fechados_24m": 30, "hab_por_cnpj": 3674, "taxa_pressao_24m": 33, "indice_saturacao": "Baixa"}
+    }
+  },
+  "3538709": {
+    "codigo_ibge": "3538709",
+    "nome": "Piracicaba",
+    "uf": "SP",
+    "uf_slug": "sp",
+    "slug": "piracicaba",
+    "populacao": 407252,
+    "pib_per_capita": 58400,
+    "cidades_gemeas": [{"nome": "Limeira", "uf": "SP", "slug": "limeira", "uf_slug": "sp"}],
+    "nichos": {
+      "hamburgueria": {"ativos": 510, "abertos_24m": 130, "fechados_24m": 90, "hab_por_cnpj": 798, "taxa_pressao_24m": 69, "indice_saturacao": "Alta"},
+      "pet-shop": {"ativos": 240, "abertos_24m": 55, "fechados_24m": 25, "hab_por_cnpj": 1696, "taxa_pressao_24m": 45, "indice_saturacao": "Baixa"},
+      "barbearia": {"ativos": 420, "abertos_24m": 105, "fechados_24m": 75, "hab_por_cnpj": 969, "taxa_pressao_24m": 71, "indice_saturacao": "Alta"},
+      "marmitaria": {"ativos": 190, "abertos_24m": 50, "fechados_24m": 20, "hab_por_cnpj": 2143, "taxa_pressao_24m": 40, "indice_saturacao": "Baixa"},
+      "cafeteria": {"ativos": 120, "abertos_24m": 35, "fechados_24m": 12, "hab_por_cnpj": 3393, "taxa_pressao_24m": 34, "indice_saturacao": "Baixa"}
+    }
+  },
+  "3526902": {
+    "codigo_ibge": "3526902",
+    "nome": "Limeira",
+    "uf": "SP",
+    "uf_slug": "sp",
+    "slug": "limeira",
+    "populacao": 291869,
+    "pib_per_capita": 54100,
+    "cidades_gemeas": [{"nome": "Americana", "uf": "SP", "slug": "americana", "uf_slug": "sp"}],
+    "nichos": {
+      "hamburgueria": {"ativos": 380, "abertos_24m": 95, "fechados_24m": 70, "hab_por_cnpj": 768, "taxa_pressao_24m": 73, "indice_saturacao": "Alta"},
+      "pet-shop": {"ativos": 170, "abertos_24m": 40, "fechados_24m": 18, "hab_por_cnpj": 1716, "taxa_pressao_24m": 45, "indice_saturacao": "Baixa"},
+      "barbearia": {"ativos": 310, "abertos_24m": 80, "fechados_24m": 55, "hab_por_cnpj": 941, "taxa_pressao_24m": 68, "indice_saturacao": "Alta"},
+      "marmitaria": {"ativos": 140, "abertos_24m": 38, "fechados_24m": 15, "hab_por_cnpj": 2084, "taxa_pressao_24m": 39, "indice_saturacao": "Baixa"},
+      "cafeteria": {"ativos": 85, "abertos_24m": 25, "fechados_24m": 8, "hab_por_cnpj": 3433, "taxa_pressao_24m": 32, "indice_saturacao": "Baixa"}
+    }
+  },
+  "3552403": {
+    "codigo_ibge": "3552403",
+    "nome": "Sumaré",
+    "uf": "SP",
+    "uf_slug": "sp",
+    "slug": "sumare",
+    "populacao": 279539,
+    "pib_per_capita": 49800,
+    "cidades_gemeas": [{"nome": "Hortolândia", "uf": "SP", "slug": "hortolandia", "uf_slug": "sp"}],
+    "nichos": {
+      "hamburgueria": {"ativos": 350, "abertos_24m": 90, "fechados_24m": 65, "hab_por_cnpj": 798, "taxa_pressao_24m": 72, "indice_saturacao": "Alta"},
+      "pet-shop": {"ativos": 150, "abertos_24m": 35, "fechados_24m": 15, "hab_por_cnpj": 1863, "taxa_pressao_24m": 42, "indice_saturacao": "Baixa"},
+      "barbearia": {"ativos": 290, "abertos_24m": 75, "fechados_24m": 50, "hab_por_cnpj": 963, "taxa_pressao_24m": 66, "indice_saturacao": "Alta"},
+      "marmitaria": {"ativos": 130, "abertos_24m": 35, "fechados_24m": 12, "hab_por_cnpj": 2150, "taxa_pressao_24m": 36, "indice_saturacao": "Baixa"},
+      "cafeteria": {"ativos": 75, "abertos_24m": 22, "fechados_24m": 7, "hab_por_cnpj": 3727, "taxa_pressao_24m": 31, "indice_saturacao": "Baixa"}
+    }
+  },
+  "3519072": {
+    "codigo_ibge": "3519072",
+    "nome": "Hortolândia",
+    "uf": "SP",
+    "uf_slug": "sp",
+    "slug": "hortolandia",
+    "populacao": 236641,
+    "pib_per_capita": 53200,
+    "cidades_gemeas": [{"nome": "Sumaré", "uf": "SP", "slug": "sumare", "uf_slug": "sp"}],
+    "nichos": {
+      "hamburgueria": {"ativos": 290, "abertos_24m": 75, "fechados_24m": 50, "hab_por_cnpj": 815, "taxa_pressao_24m": 66, "indice_saturacao": "Alta"},
+      "pet-shop": {"ativos": 130, "abertos_24m": 30, "fechados_24m": 12, "hab_por_cnpj": 1818, "taxa_pressao_24m": 40, "indice_saturacao": "Baixa"},
+      "barbearia": {"ativos": 240, "abertos_24m": 65, "fechados_24m": 40, "hab_por_cnpj": 986, "taxa_pressao_24m": 61, "indice_saturacao": "Alta"},
+      "marmitaria": {"ativos": 110, "abertos_24m": 30, "fechados_24m": 10, "hab_por_cnpj": 2151, "taxa_pressao_24m": 33, "indice_saturacao": "Baixa"},
+      "cafeteria": {"ativos": 60, "abertos_24m": 18, "fechados_24m": 5, "hab_por_cnpj": 3944, "taxa_pressao_24m": 27, "indice_saturacao": "Baixa"}
+    }
+  },
+  "3554300": {
+    "codigo_ibge": "3554300",
+    "nome": "Paulínia",
+    "uf": "SP",
+    "uf_slug": "sp",
+    "slug": "paulinia",
+    "populacao": 110590,
+    "pib_per_capita": 185000,
+    "cidades_gemeas": [{"nome": "Campinas", "uf": "SP", "slug": "campinas", "uf_slug": "sp"}],
+    "nichos": {
+      "hamburgueria": {"ativos": 180, "abertos_24m": 50, "fechados_24m": 30, "hab_por_cnpj": 614, "taxa_pressao_24m": 60, "indice_saturacao": "Alta"},
+      "pet-shop": {"ativos": 90, "abertos_24m": 22, "fechados_24m": 8, "hab_por_cnpj": 1228, "taxa_pressao_24m": 36, "indice_saturacao": "Baixa"},
+      "barbearia": {"ativos": 150, "abertos_24m": 42, "fechados_24m": 22, "hab_por_cnpj": 737, "taxa_pressao_24m": 52, "indice_saturacao": "Moderada"},
+      "marmitaria": {"ativos": 70, "abertos_24m": 20, "fechados_24m": 6, "hab_por_cnpj": 1579, "taxa_pressao_24m": 30, "indice_saturacao": "Baixa"},
+      "cafeteria": {"ativos": 45, "abertos_24m": 14, "fechados_24m": 4, "hab_por_cnpj": 2457, "taxa_pressao_24m": 28, "indice_saturacao": "Baixa"}
+    }
+  },
+  "3543402": {
+    "codigo_ibge": "3543402",
+    "nome": "Ribeirão Preto",
+    "uf": "SP",
+    "uf_slug": "sp",
+    "slug": "ribeirao-preto",
+    "populacao": 698642,
+    "pib_per_capita": 64800,
+    "cidades_gemeas": [{"nome": "Sertãozinho", "uf": "SP", "slug": "sertaozinho", "uf_slug": "sp"}],
+    "nichos": {
+      "hamburgueria": {"ativos": 850, "abertos_24m": 220, "fechados_24m": 150, "hab_por_cnpj": 821, "taxa_pressao_24m": 68, "indice_saturacao": "Alta"},
+      "pet-shop": {"ativos": 410, "abertos_24m": 95, "fechados_24m": 45, "hab_por_cnpj": 1703, "taxa_pressao_24m": 47, "indice_saturacao": "Baixa"},
+      "barbearia": {"ativos": 680, "abertos_24m": 170, "fechados_24m": 120, "hab_por_cnpj": 1027, "taxa_pressao_24m": 70, "indice_saturacao": "Moderada"},
+      "marmitaria": {"ativos": 310, "abertos_24m": 85, "fechados_24m": 35, "hab_por_cnpj": 2253, "taxa_pressao_24m": 41, "indice_saturacao": "Baixa"},
+      "cafeteria": {"ativos": 210, "abertos_24m": 65, "fechados_24m": 20, "hab_por_cnpj": 3326, "taxa_pressao_24m": 30, "indice_saturacao": "Baixa"}
+    }
+  },
+  "3549904": {
+    "codigo_ibge": "3549904",
+    "nome": "São José dos Campos",
+    "uf": "SP",
+    "uf_slug": "sp",
+    "slug": "sao-jose-dos-campos",
+    "populacao": 697428,
+    "pib_per_capita": 72100,
+    "cidades_gemeas": [{"nome": "Jacareí", "uf": "SP", "slug": "jacarei", "uf_slug": "sp"}],
+    "nichos": {
+      "hamburgueria": {"ativos": 820, "abertos_24m": 210, "fechados_24m": 140, "hab_por_cnpj": 850, "taxa_pressao_24m": 66, "indice_saturacao": "Alta"},
+      "pet-shop": {"ativos": 390, "abertos_24m": 90, "fechados_24m": 40, "hab_por_cnpj": 1788, "taxa_pressao_24m": 44, "indice_saturacao": "Baixa"},
+      "barbearia": {"ativos": 650, "abertos_24m": 160, "fechados_24m": 110, "hab_por_cnpj": 1072, "taxa_pressao_24m": 68, "indice_saturacao": "Moderada"},
+      "marmitaria": {"ativos": 295, "abertos_24m": 80, "fechados_24m": 30, "hab_por_cnpj": 2364, "taxa_pressao_24m": 37, "indice_saturacao": "Baixa"},
+      "cafeteria": {"ativos": 195, "abertos_24m": 60, "fechados_24m": 18, "hab_por_cnpj": 3576, "taxa_pressao_24m": 30, "indice_saturacao": "Baixa"}
+    }
+  }
+}

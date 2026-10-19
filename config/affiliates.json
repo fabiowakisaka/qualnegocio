@@ -1,0 +1,31 @@
+{
+  "domain": "https://qualnegocio.com",
+  "site_name": "QualNegócio",
+  "contabilidade": {
+    "titulo": "Vai abrir como ME ou quer tirar o CNPJ sem dor de cabeça?",
+    "descricao": "Abertura de empresa gratuita no plano anual, enquadramento correto de CNAEs para pagar menos imposto no Simples Nacional e atendimento online.",
+    "cta_texto": "Consultar Viabilidade de Abertura na Contabilizei →",
+    "url": "https://www.contabilizei.com.br/?utm_source=qualnegocio"
+  },
+  "conta_pj": {
+    "titulo": "Conta PJ 100% Gratuita e Sem Taxa de Manutenção",
+    "descricao": "Não misture o Pix da sua empresa com o seu CPF. Emita boletos, links de pagamento e separe o caixa desde o primeiro dia.",
+    "cta_texto": "Abrir Conta PJ Grátis no Banco Cora →",
+    "url": "https://www.cora.com.br/?utm_source=qualnegocio"
+  },
+  "maquininha": {
+    "titulo": "Maquininha com as Menores Taxas para CPF ou CNPJ",
+    "descricao": "Aceite Pix na maquininha, aproximação (NFC) e parcelamento em até 12x com recebimento em 1 dia útil.",
+    "cta_texto": "Ver Desconto Exclusivo na Maquininha Ton →",
+    "url": "https://www.ton.com.br/?utm_source=qualnegocio",
+    "taxa_debito_pct": 1.39,
+    "taxa_credito_vista_pct": 3.19,
+    "taxa_banco_tradicional_pct": 4.99
+  },
+  "repasse_ponto": {
+    "titulo": "Mercado saturado? Considere comprar um ponto já montado",
+    "descricao": "Em setores com alta concorrência local, assumir uma operação em andamento (repasse de ponto) pode custar até 40% menos do que montar do zero.",
+    "cta_texto": "Simular Valuation de Negócio em Operação →",
+    "url": "https://qualnegocioabrir.com/?utm_source=qualnegocio_repasse"
+  }
+}

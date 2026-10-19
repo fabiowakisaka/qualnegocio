@@ -1,0 +1,46 @@
+{
+  "codigo_ibge": "3545803",
+  "hub_resumo": "Santa Bárbara d'Oeste (SP) possui população estimada de 183347 habitantes e PIB per capita de R$ 51200. Confira abaixo o índice de saturação e a taxa de sobrevivência de 24 meses para cada setor antes de abrir seu CNPJ.",
+  "nichos": {
+    "hamburgueria": {
+      "resumo_mercado": "O setor de Hamburgueria e Lanchonete em Santa Bárbara d'Oeste (SP) registra atualmente 274 CNPJs ativos, resultando na proporção de 1 estabelecimento para cada 669 habitantes (a referência equilibrada é 1 para 850).",
+      "analise_risco": "Nos últimos 24 meses, foram registradas 76 aberturas e 54 baixas, gerando uma taxa de pressão competitiva de 71%.",
+      "veredito_local": "Com PIB per capita de R$ 51200 e saturação Alta, o ticket médio de referência é R$ 45."
+    },
+    "pet-shop": {
+      "resumo_mercado": "O setor de Pet Shop e Banho e Tosa em Santa Bárbara d'Oeste (SP) registra atualmente 122 CNPJs ativos, resultando na proporção de 1 estabelecimento para cada 1503 habitantes (a referência equilibrada é 1 para 1400).",
+      "analise_risco": "Nos últimos 24 meses, foram registradas 31 aberturas e 12 baixas, gerando uma taxa de pressão competitiva de 39%.",
+      "veredito_local": "Com PIB per capita de R$ 51200 e saturação Baixa, o ticket médio de referência é R$ 85."
+    },
+    "barbearia": {
+      "resumo_mercado": "O setor de Barbearia e Salão Masculino em Santa Bárbara d'Oeste (SP) registra atualmente 265 CNPJs ativos, resultando na proporção de 1 estabelecimento para cada 692 habitantes (a referência equilibrada é 1 para 750).",
+      "analise_risco": "Nos últimos 24 meses, foram registradas 72 aberturas e 48 baixas, gerando uma taxa de pressão competitiva de 67%.",
+      "veredito_local": "Com PIB per capita de R$ 51200 e saturação Alta, o ticket médio de referência é R$ 55."
+    },
+    "marmitaria": {
+      "resumo_mercado": "O setor de Marmitaria e Comida Congelada em Santa Bárbara d'Oeste (SP) registra atualmente 115 CNPJs ativos, resultando na proporção de 1 estabelecimento para cada 1594 habitantes (a referência equilibrada é 1 para 1100).",
+      "analise_risco": "Nos últimos 24 meses, foram registradas 38 aberturas e 14 baixas, gerando uma taxa de pressão competitiva de 37%.",
+      "veredito_local": "Com PIB per capita de R$ 51200 e saturação Baixa, o ticket médio de referência é R$ 28."
+    },
+    "cafeteria": {
+      "resumo_mercado": "O setor de Cafeteria e Doceria em Santa Bárbara d'Oeste (SP) registra atualmente 64 CNPJs ativos, resultando na proporção de 1 estabelecimento para cada 2865 habitantes (a referência equilibrada é 1 para 1800).",
+      "analise_risco": "Nos últimos 24 meses, foram registradas 19 aberturas e 6 baixas, gerando uma taxa de pressão competitiva de 32%.",
+      "veredito_local": "Com PIB per capita de R$ 51200 e saturação Baixa, o ticket médio de referência é R$ 32."
+    },
+    "clinica-de-estetica": {
+      "resumo_mercado": "O setor de Clínica de Estética em Santa Bárbara d'Oeste (SP) registra atualmente 88 CNPJs ativos, resultando na proporção de 1 estabelecimento para cada 2083 habitantes (a referência equilibrada é 1 para 1600).",
+      "analise_risco": "Nos últimos 24 meses, foram registradas 27 aberturas e 9 baixas, gerando uma taxa de pressão competitiva de 33%.",
+      "veredito_local": "Com PIB per capita de R$ 51200 e saturação Baixa, o ticket médio de referência é R$ 180."
+    },
+    "lavanderia": {
+      "resumo_mercado": "O setor de Lavanderia Self-Service em Santa Bárbara d'Oeste (SP) registra atualmente 24 CNPJs ativos, resultando na proporção de 1 estabelecimento para cada 7639 habitantes (a referência equilibrada é 1 para 4500).",
+      "analise_risco": "Nos últimos 24 meses, foram registradas 9 aberturas e 2 baixas, gerando uma taxa de pressão competitiva de 22%.",
+      "veredito_local": "Com PIB per capita de R$ 51200 e saturação Baixa, o ticket médio de referência é R$ 35."
+    },
+    "oficina-mecanica": {
+      "resumo_mercado": "O setor de Oficina Mecânica Automotiva em Santa Bárbara d'Oeste (SP) registra atualmente 172 CNPJs ativos, resultando na proporção de 1 estabelecimento para cada 1066 habitantes (a referência equilibrada é 1 para 1100).",
+      "analise_risco": "Nos últimos 24 meses, foram registradas 28 aberturas e 15 baixas, gerando uma taxa de pressão competitiva de 54%.",
+      "veredito_local": "Com PIB per capita de R$ 51200 e saturação Moderada, o ticket médio de referência é R$ 420."
+    }
+  }
+}

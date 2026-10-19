@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>Qual negócio abrir em {{ uf_nome }} em {{ ano }}</h1>
+<p>{{ cidades|length }} cidade{{ 's' if cidades|length != 1 }} de {{ uf_nome }} com estudo de viabilidade publicado. Escolha uma cidade ou veja onde cada ramo tem mais espaço no estado.</p>
+
+<h2>Melhores cidades do estado por ramo</h2>
+<ul class="grade">
+{% for n in nichos_uf %}<li><a href="{{ rel }}negocios/{{ n.slug }}/{{ uf_slug }}/index.html">{{ n.nome }} <small>{{ n.cidades }} cidades</small></a></li>{% endfor %}
+</ul>
+
+<h2>Cidades</h2>
+<div class="tabela"><table>
+<thead><tr><th>Cidade</th><th class="num">População</th><th class="num">Ramos com espaço</th></tr></thead>
+<tbody>
+{% for c in cidades %}<tr><td><a href="{{ rel }}{{ uf_slug }}/{{ c.slug }}/index.html">{{ c.nome }}</a></td><td class="num">{{ c.populacao|milhar }}</td><td class="num">{{ c.n_baixa }}</td></tr>{% endfor %}
+</tbody></table></div>
+{% endblock %}

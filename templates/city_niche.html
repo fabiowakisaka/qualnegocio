@@ -1,0 +1,49 @@
+{% extends "base.html" %}
+{% from "_macros.html" import pill, regua, cta %}
+{% block content %}
+<p>{{ pill(metrics.indice_saturacao) }}</p>
+<h1>Abrir {{ meta.nome }} em {{ city.nome }} ({{ city.uf }})</h1>
+
+<dl class="numeros">
+  <div><dt>Estabelecimentos ativos</dt><dd>{{ metrics.ativos|milhar }}</dd></div>
+  <div><dt>Habitantes por estabelecimento</dt><dd>{{ metrics.hab_por_cnpj|milhar }}</dd></div>
+  <div><dt>Abertos em 24 meses</dt><dd>+{{ metrics.abertos_24m|milhar }}</dd></div>
+  <div><dt>Baixados em 24 meses</dt><dd>−{{ metrics.fechados_24m|milhar }}</dd></div>
+</dl>
+
+{{ regua(metrics) }}
+
+<article class="painel">
+  <h2 style="margin-top:0">Análise do mercado de {{ meta.nome|lower }} em {{ city.nome }}</h2>
+  <p>{{ nar.resumo_mercado }}</p>
+  <p>{{ nar.analise_risco }}</p>
+  <p>{{ nar.veredito_local }}</p>
+  {% if analise_em %}<p class="aviso">Análise gerada em {{ analise_em|data_br }} com dados da Receita Federal{% if fonte_rfb %} (lote {{ fonte_rfb }}){% endif %} e do IBGE.</p>{% endif %}
+</article>
+
+<h2>Referências do setor</h2>
+<div class="tabela"><table>
+<tbody>
+<tr><th>Investimento inicial de referência</th><td>R$ {{ meta.investimento_min|milhar }} a R$ {{ meta.investimento_max|milhar }}</td></tr>
+<tr><th>Margem média de referência</th><td>{{ meta.margem_media_pct }}%</td></tr>
+<tr><th>Ticket médio de referência</th><td>R$ {{ meta.ticket_medio|milhar }}</td></tr>
+<tr><th>Pode ser MEI</th><td>{{ 'Sim, dentro das regras do MEI' if meta.permite_mei else 'Não costuma se enquadrar como MEI' }}</td></tr>
+<tr><th>Equilíbrio do setor</th><td>1 estabelecimento para cada {{ meta.hab_por_cnpj_ideal|milhar }} habitantes</td></tr>
+</tbody></table></div>
+<p class="aviso">Valores de referência são estimativas editoriais do setor, não levantamento local. Confirme custos e regras na sua prefeitura antes de decidir.</p>
+
+{{ cta(affiliates.contabilidade) }}
+{{ cta(affiliates.conta_pj, true) }}
+{{ cta(affiliates.maquininha, true) }}
+{% if metrics.indice_saturacao == 'Alta' %}{{ cta(affiliates.repasse_ponto, true) }}{% endif %}
+
+{% if outros %}
+<h2>Outros ramos em {{ city.nome }}</h2>
+<ul class="grade">{% for o in outros %}<li><a href="{{ rel }}{{ city.uf_slug }}/{{ city.slug }}/{{ o.slug }}/index.html">{{ o.meta.nome }} <small>{{ o.metrics.indice_saturacao }}</small></a></li>{% endfor %}</ul>
+{% endif %}
+{% if vizinhas %}
+<h2>{{ meta.nome }} nas cidades próximas</h2>
+<ul class="grade">{% for v in vizinhas %}<li><a href="{{ rel }}{{ v.uf_slug }}/{{ v.slug }}/{{ meta_slug }}/index.html">{{ v.nome }} <small>{{ v.indice }}</small></a></li>{% endfor %}</ul>
+{% endif %}
+<p><a href="{{ rel }}negocios/{{ meta_slug }}/index.html">Ranking nacional de {{ meta.nome|lower }}</a></p>
+{% endblock %}
