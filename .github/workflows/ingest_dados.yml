@@ -36,13 +36,11 @@ jobs:
           cache: pip
       - run: pip install -r requirements.txt
       - name: Ingest
-        env:
-          RFB_BASE_URL: ${{ vars.RFB_BASE_URL }}
         run: |
           ARGS=""
           if [ -n "${{ github.event.inputs.mes }}" ]; then ARGS="$ARGS --mes ${{ github.event.inputs.mes }}"; fi
           if [ "${{ github.event.inputs.forcar_ibge }}" = "true" ]; then ARGS="$ARGS --forcar-ibge"; fi
-          python scripts/01_ingest_dados.py $ARGS
+          python scripts/01_ingest_dados.py --rfb-base "https://arquivos.receitafederal.gov.br/dados/cnpj/dados_abertos_cnpj/" $ARGS
       - name: Commit dos dados
         run: |
           git config user.name "github-actions[bot]"
